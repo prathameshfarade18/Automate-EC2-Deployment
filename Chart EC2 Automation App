@@ -1,0 +1,10 @@
+| Step | Task                         | Script/Tool Used                    |
+| ---- | ---------------------------- | ----------------------------------- |
+| 1    | Create AWS Account           | AWS Website                         |
+| 2    | Launch EC2 Instance          | `deploy.sh` + AWS CLI               |
+| 3    | Install Java & Git           | `setup.sh`                          |
+| 4    | Clone Repo & Deploy App      | `setup.sh`                          |
+| 5    | Check App on Port 80         | `test_reachability.sh`              |
+| 6    | Stop EC2 Instance            | `stop_instance.sh`                  |
+| 7    | Use ENV for Secrets          | `aws configure`                     |
+| 8    | Use Stage-Based Config Files | `dev_config.env`, `prod_config.env` |
