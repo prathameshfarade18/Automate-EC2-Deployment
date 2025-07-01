@@ -1,0 +1,11 @@
+Free AWS Account
+Spin up an EC2 instance of a specified type
+Install required dependencies (Java 21)
+Clone and deploy the app from the given GitHub repo: https://github.com/prathameshfarade18/Deploy-App
+Test if the app is reachable on port 80
+Automatically stop the EC2 instance after a specified timeout (for cost-saving)
+Use environment variables for AWS credentials (no secrets in code)
+Support for stage-based config (dev, prod) with:
+Different instance types
+Dependency configurations
+Timeout settings
